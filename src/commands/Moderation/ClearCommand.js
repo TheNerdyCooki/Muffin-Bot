@@ -2,7 +2,7 @@ const BaseCommand = require('../../utils/structures/BaseCommand');
 
 module.exports = class ClearCommand extends BaseCommand {
   constructor() {
-    super('Clear', 'Moderation', []);
+    super('clear', 'Moderation', []);
   }
 
   run(client, message, args) {

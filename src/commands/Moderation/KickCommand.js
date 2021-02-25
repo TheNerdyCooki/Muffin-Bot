@@ -2,7 +2,7 @@ const BaseCommand = require('../../utils/structures/BaseCommand');
 
 module.exports = class KickCommand extends BaseCommand {
   constructor() {
-    super('Kick', 'Moderation', []);
+    super('kick', 'Moderation', []);
   }
 
   run(client, message, args) {

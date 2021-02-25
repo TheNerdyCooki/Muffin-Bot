@@ -3,7 +3,7 @@ const Discord = require('discord.js')
 
 module.exports = class AvatarCommand extends BaseCommand {
   constructor() {
-    super('Avatar', 'Fun', []);
+    super('avatar', 'Fun', []);
   }
 
   run(client, message, args) {

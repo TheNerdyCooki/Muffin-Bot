@@ -3,7 +3,7 @@ const Discord = require('discord.js')
 
 module.exports = class PingCommand extends BaseCommand {
   constructor() {
-    super('Ping', 'Miscellaneous', []);
+    super('ping', 'Miscellaneous', []);
   }
 
   run(client, message, args) {

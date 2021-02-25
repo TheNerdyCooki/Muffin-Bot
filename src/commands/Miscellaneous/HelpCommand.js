@@ -4,7 +4,7 @@ const Discord = require('discord.js');
 
 module.exports = class HelpCommand extends BaseCommand {
   constructor() {
-    super('Help', 'Miscellaneous', []);
+    super('help', 'Miscellaneous', []);
   }
 
   run(client, message, args) {
