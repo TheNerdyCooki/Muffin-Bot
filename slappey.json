@@ -2,6 +2,5 @@
   "name": "Muffin-Soldier",
   "language": "javascript",
   "manager": "npm",
-  "token": "procces.env.token",
   "prefix": "c!"
 }
