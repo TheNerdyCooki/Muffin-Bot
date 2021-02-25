@@ -5,7 +5,7 @@ module.exports = class SlowmodeCommand extends BaseCommand {
     super('slowmode', 'Moderation', []);
   }
 
-  run(client, message, args) {
+  run(client, message) {
 
     const messageArray = message.content.split(" ")
     const args = messageArray.slice(1)
