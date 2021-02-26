@@ -4,7 +4,7 @@ const pagination = require('discord.js-pagination');
 
 module.exports = class InfoCommand extends BaseCommand {
   constructor() {
-    super('Info', 'Miscellaneous', []);
+    super('info', 'Miscellaneous', []);
   }
 
   run(client, message, args) {
