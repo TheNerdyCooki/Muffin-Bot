@@ -35,7 +35,6 @@ module.exports = class HelpCommand extends BaseCommand {
              moderation,
              fun,
              utility,
-            
      ]
 
      const emojiList = ["⏪", "⏩"];
