@@ -8,8 +8,9 @@ module.exports = class ReadyEvent extends BaseEvent {
   }
   async run (client) {
 
+
     console.log([
-			`Logged in as ${this.client.user.tag}`,
+			client.user.tag + ' has logged in.',
 			`Loaded ${this.client.commands.size} commands!`,
 			`Loaded ${this.client.events.size} events!`
 		].join('\n'));
@@ -23,6 +24,8 @@ module.exports = class ReadyEvent extends BaseEvent {
 		let i = 0;
 		setInterval(() => this.client.user.setActivity(`${this.client.prefix}help | ${activities[i++ % activities.length]}`, { type: 'WATCHING' }), 15000);
 
+
+		
   }
 
 
