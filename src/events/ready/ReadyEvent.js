@@ -11,8 +11,8 @@ module.exports = class ReadyEvent extends BaseEvent {
 
     console.log([
 			client.user.tag + ' has logged in.',
-			`Loaded ${this.client.commands.size} commands!`,
-			`Loaded ${this.client.events.size} events!`
+			client.user.tag + 'has loaded commands',
+			client.user.tag + 'has loaded events'
 		].join('\n'));
 
 		const activities = [
